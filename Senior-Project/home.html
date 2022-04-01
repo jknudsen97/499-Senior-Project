@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <h1>Budget Components</h1>
+        <h1>Hardware Anywhere</h1>
     </header>
     <nav>
         <ul>
@@ -20,10 +20,72 @@
             <li><a href="faq.html">FAQ</a></li>
         </ul>
     </nav>
-    <div id="desc">Here at [store] we do our best 
+    <div id="descHome">Here at "Hardware Anywhere" we do our best 
         to provide you with affordable alternatives 
-        for your next computer. From APU's to RAM
-        we aim to provide for all your needs.</div>
+        for your next computer. From APU's to Micro PCs
+        we aim to provide for all your needs.
+    </div>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 5</div>
+    <img src="images/5600g.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 5</div>
+    <img src="images/5700g.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/i7.png" style="width:100%">
+  </div>
     
+  <div class="mySlides">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/i9.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 5</div>
+    <img src="images/mini.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/5600g.png" style="width:20%" onclick="currentSlide(1)" alt="Ryzen 5600G APU">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/5700g.png" style="width:20%" onclick="currentSlide(2)" alt="Ryzen 5700G APU">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/i7.png" style="width:20%" onclick="currentSlide(3)" alt="Intel i9-12900K">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/i9.jpg" style="width:20%" onclick="currentSlide(4)" alt="Intel i7-12700K">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/mini.jpg" style="width:20%" onclick="currentSlide(5)" alt="MinisForum HX90">
+    </div>
+  </div>
+</div>
+
+<footer>
+    <div>&copy; Hardware Anywhere | Attributions | Jeremy Knudsen |&nbsp;</div> 
+    <div class="current2">
+        <span id="currentDayofWeek"></span>, &nbsp;
+        <span id="currentDay"></span> &nbsp; <span id="currentMonth"></span> &nbsp;  
+        <span id="currentYear"></span>
+    </div>
+</footer>
+<script defer src="js/script.js"></script>
 </body>
 </html>
